@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    background-color: teal;
+    justify-content: center;
+    align-items: center;
+
+}
+form{
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    background-color: rgb(250, 253, 255);
+    border-radius: 10px;
+
+
+}
+/* __________form-header___________ */
+.form-header{
+    border-bottom: 1px solid gainsboro;
+    text-align: center;
+    padding: 21px;
+
+    
+
+}
+
+/* ____________form-body______________ */
+.form-body{
+   padding: 10px;
+   background-color: aliceblue;
+
+}
+label{
+    font-size: 15px;
+    color: rgb(23, 222, 222);
+}
+.user-name,
+.user-passwords,
+.user-more-infors,
+.user-email,
+.user-bio{
+    margin: 10px;
+}
+.user-name,
+.user-passwords,
+.user-more-infos{
+    display: flex;
+    justify-content: space-between;
+}
+.user-firstname,
+.user-lastname,
+.user-password,
+.user-confirm-password,
+.user-gender,
+.user-hobby,
+.user-financial,
+.user-income,
+.user-profile,
+.user-age {
+    width: 45%;
+}
+.user-firstname input,
+.user-lastname input,
+.user-password input,
+.user-confirm-password input,
+.user-email input,
+.user-age input,
+.user-bio textarea {
+    width: 100%;
+    padding: 5px;
+
+}
+/* __________form-footer_________ */
+.form-footer{
+    padding: 18px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: flex-end;
+}
+.form-footer button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(182, 239, 239);
+    color: white;
+
+}
+
+
